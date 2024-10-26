@@ -1,0 +1,174 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('/images/back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.subtitle {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.reset-button {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 80%;
+  max-width: 400px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+}
+
+.red {
+  background-color: rgba(141, 9, 0, 0.8);
+}
+
+.yellow {
+  background-color: rgba(255, 235, 59, 0.8);
+  color: black;
+}
+
+.green {
+  background-color: rgba(76, 175, 80, 0.8);
+}
+
+.blue {
+  background-color: rgba(0, 62, 113, 0.8);
+}
+
+.grid-item:hover {
+  opacity: 0.8;
+}
+
+.room-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: white;
+}
+
+.hint-image {
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.clue-image {
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 2px solid white;
+  background: white;
+  color: black;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: darkgray;
+}
+
+.error-message {
+  color: red;
+}
+
+.room-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 추가된 스타일 */
+.reset-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black; /* 배경을 검은색으로 설정 */
+  padding: 20px;
+}
+
+.reset-hint-image {
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Sunflower', sans-serif; /* Change to Sunflower */
+  height: 100%;
+}
+
+/* The rest of your CSS remains unchanged */
